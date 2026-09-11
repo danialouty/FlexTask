@@ -6,8 +6,8 @@
 
 }
 .container div{
-    width: 175px;
-    height: 175px;
+    width: 185px;
+    height: 185px;
     padding: 8px;
     margin:0px;
     background-color: #4d7298;
@@ -17,6 +17,7 @@
     border-color: #77a6b6;
     border-radius: 6px;
     display: flex;
+    font-size: 17px;
     
 
 }

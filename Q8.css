@@ -1,0 +1,22 @@
+.container{
+display: flex;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   color: aliceblue;
+   font-size: x-large;
+}
+
+.num:nth-child(1){
+flex:460px;
+background-color: #1abc9c;
+}
+
+.num:nth-child(2){
+flex:50px;
+background-color: #3498db;
+}

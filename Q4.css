@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+.container div{
+    width: 175px;
+    height: 175px;
+    padding: 8px;
+    margin:0px;
+    background-color: #4d7298;
+    color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #77a6b6;
+    border-radius: 6px;
+    display: flex;
+    
+
+}

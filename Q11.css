@@ -2,3 +2,68 @@ body {
     padding: 20px;
     background-color: white;
 }
+
+.container {
+    display: grid; 
+    
+    grid-template-columns: repeat(4, 1fr); 
+    
+    grid-template-rows: repeat(3, 200px);
+    
+    gap: 10px;  
+}
+
+
+.griditem {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 4px;
+
+} 
+
+.griditemsub{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ background-color: #f0f0f0;
+
+}
+ 
+.griditemsub div{
+    width: 145px;
+     background-color: #cfcfcf;
+    margin: 2px;
+    
+
+}
+
+#r{
+     background-color: #cfcfcf;
+     margin: 1px;
+     height: 80px;
+    padding: 3px;
+
+}
+
+#c{
+    
+  
+
+}
+
+.griditemc {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+} 
+
+.griditemc div {
+      background-color: #cfcfcf;
+      margin: 2px;
+    
+} 
+
